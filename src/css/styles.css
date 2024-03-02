@@ -1,0 +1,61 @@
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+	font-size: 16px; /* 1rem = 10px */
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: rgb(23, 41, 56);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/*
+telefono: 480px;
+tablet: 768px;
+desktop: 992px;
+desktopXL: 1200px;
+*/
+
+/* Contenedores */
+.contenedor-principal {
+  width: 50vw;
+  max-width: 60rem;
+  min-height: 35rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  background-color: whitesmoke;
+  border: 0.5rem solid black;
+  border-radius: 2rem;
+}
+
+/* Colores */
+.color {
+  padding: 2rem;
+  margin: 1rem;
+  font-size: 2rem;
+  font-weight: bold;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+label, p {
+  margin: 0.5rem;
+}
